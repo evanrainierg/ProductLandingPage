@@ -178,10 +178,10 @@ h5 {
 
 #color-section .colors-img {
   display: block;
-  width: 70%;
+  width: 55%;
   padding-left: 60px;
   padding-right: 60px;
-  padding-top: 60px;
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -265,6 +265,114 @@ h5 {
   font-weight: 500;
   letter-spacing: 1px;
   padding-right: 150px;
+}
+
+#register {
+  width: 90%;
+  height: 150px;
+  color: black;
+  padding: 80px;
+  text-align: center;
+}
+
+#register .orderform {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#register .orderform .email {
+  height: 50px;
+  font-size: 16px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+  margin-right: 10px;
+  padding-left: 10px;
+  border-radius: 8px;
+  border: 2px solid gray;
+}
+
+#register .orderform .submit {
+  background-color: gray;
+  color: white;
+  height: 50px;
+  width: 100px;
+  font-size: 15px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+  border-radius: 8px;
+  border: 2px solid gray;
+}
+
+.register-img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-color: #5b5b5b;
+  padding: 50px 200px 50px 200px;
+}
+
+#footer .texts {
+  width: 100%;
+  line-height: 18px;
+  list-style-type: none;
+  color: white;
+  font-size: 12px;
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 1px;
+  padding-bottom: 40px;
+}
+
+#footer .texts p {
+  padding: 8px;
+}
+
+#footer .row-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .row-footer .notes {
+  width: 200px;
+  line-height: 23px;
+  list-style-type: none;
+  color: white;
+  font-size: 13px;
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+#footer .row-footer p {
+  padding: 8px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -395,11 +503,5 @@ h5 {
     font-size: 9px;
     padding-right: 40px;
   }
-}
-
-#register {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 /*# sourceMappingURL=styles.css.map */
