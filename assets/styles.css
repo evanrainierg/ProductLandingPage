@@ -179,7 +179,9 @@ h5 {
 #color-section .colors-img {
   display: block;
   width: 70%;
-  padding: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -192,7 +194,7 @@ h5 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 700px;
+  height: 770px;
 }
 
 #camera-text .text1 {
@@ -395,7 +397,7 @@ h5 {
   }
 }
 
-#models {
+#register {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
