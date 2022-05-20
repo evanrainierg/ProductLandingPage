@@ -1,0 +1,85 @@
+#background {
+    color: black;
+    background-color: white;
+    background-image: url("https://www.xmple.com/wallpaper/white-pink-gradient-linear-1920x1080-c2-ffffff-ffc0cb-a-90-f-14.svg"); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image {
+    padding: 100px;
+    width: 600px;
+    display: block;
+    margin-left: -5%;
+}
+
+#orderform {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    width: 400px;    
+}
+
+.subtitle {
+    color: brown;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.description {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+#survey-form {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+
+#finishcapacity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.finish {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.capacity {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+#freebies {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+}
