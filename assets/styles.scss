@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Nav
+
+#nav {
+  background-color: rgb(20, 33, 33);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+
+  ul {
+    background-color: rgb(20, 33, 33);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 17px 30px;
+  }
+
+  a:hover {
+    background-color: #111;
+  }
+
+  .fa-apple {
+    font-size: 14px;
+  }
+}
+
+#addinfo {
+  display: block;
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  font-family: "Urbanist", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding: 15px;
+  margin-top: 50px;
+  text-align: center;
+
+  .links {
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+  }
+}
+
+// Overview
+
+#home {
+  margin-top: 40px;
+  text-align: center;
+
+  .home-img {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .video {
+    width: 63%;
+    height: 539px;
+    margin: 50px;
+  }
+}
+
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 40px;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+h4 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 19px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+h5 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 15px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+// Display
+
+#display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: lightgray;
+  margin-top: 50px;
+
+  .display-img {
+    display: block;
+    width: 35%;
+    padding: 40px;
+  }
+
+  .display-size1 {
+    top: 45%;
+    left: 18%;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 25px;
+    font-weight: 1000;
+    letter-spacing: 0.5px;
+  }
+
+  .display-size2 {
+    top: 45%;
+    right: 21%;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 25px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+  }
+
+  .screen-size {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 45px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    line-height: 50px;
+  }
+}
+
+// Color Section
+
+#color-section {
+  margin-top: 40px;
+  text-align: center;
+
+  .colors-img {
+    display: block;
+    width: 70%;
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// Camera Text
+
+#camera-text {
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+
+  .text1 {
+    width: 50%;
+    text-align: center;
+    align-self: center;
+
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 75px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+  }
+
+  .text2 {
+    width: 50%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    align-self: center;
+
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+  }
+}
+
+// Camera
+
+#camera {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: auto;
+
+  div {
+    width: 50%;
+  }
+
+  .camera-img {
+    display: block;
+    align-items: flex-end;
+    width: 80%;
+    padding-top: 100px;
+    margin-left: 5%;
+  }
+
+  .display-size1 {
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 75px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    padding-top: 80px;
+  }
+
+  .display-size2 {
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  //Display
+
+  #display {
+    .display-img {
+      padding: 30px;
+    }
+
+    .display-size1 {
+      font-size: 20px;
+    }
+
+    .display-size2 {
+      font-size: 20px;
+    }
+
+    .screen-size {
+      font-size: 35px;
+    }
+  }
+
+  // Camera Text
+
+  #camera-text {
+    height: 500px;
+
+    .text1 {
+      font-size: 55px;
+    }
+
+    .text2 {
+      font-size: 17px;
+    }
+  }
+
+  //Camera
+
+  #camera {
+    .display-size1 {
+      font-size: 55px;
+      padding-top: 85px;
+      padding-right: 30px;
+    }
+
+    .display-size2 {
+      font-size: 15px;
+      padding-right: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  //Camera
+
+  #camera {
+    .display-size1 {
+      font-size: 45px;
+      padding-top: 85px;
+      padding-right: 55px;
+    }
+
+    .display-size2 {
+      font-size: 13px;
+      padding-right: 95px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  //nav
+  #nav {
+    background-color: rgb(20, 33, 33);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+
+    ul {
+      background-color: rgb(20, 33, 33);
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      font-family: "Urbanist", sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      padding: 17px 20px;
+    }
+
+    a:hover {
+      background-color: #111;
+    }
+
+    .fa-apple {
+      font-size: 14px;
+    }
+  }
+
+  //Display
+
+  #display {
+    .display-img {
+      padding: 20px;
+    }
+
+    .display-size1 {
+      font-size: 15px;
+    }
+
+    .display-size2 {
+      font-size: 15px;
+    }
+
+    .screen-size {
+      font-size: 25px;
+    }
+  }
+
+  // Camera Text
+
+  #camera-text {
+    height: 400px;
+
+    .text1 {
+      font-size: 40px;
+    }
+
+    .text2 {
+      font-size: 13px;
+    }
+  }
+
+  //Camera
+
+  #camera {
+    .camera-img {
+      padding-top: 60px;
+    }
+
+    .display-size1 {
+      font-size: 36px;
+      padding-top: 50px;
+      padding-right: 80px;
+    }
+
+    .display-size2 {
+      font-size: 12px;
+      padding-right: 75px;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  //Camera
+  #camera {
+    .camera-img {
+      padding-top: 50px;
+    }
+
+    .display-size1 {
+      font-size: 30px;
+      padding-top: 40px;
+      padding-right: 53px;
+    }
+
+    .display-size2 {
+      font-size: 9px;
+      padding-right: 40px;
+    }
+  }
+}
+
+#models {
+  display: flex;
+}

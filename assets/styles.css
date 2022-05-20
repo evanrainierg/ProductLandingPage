@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#nav {
+  background-color: #142121;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+
+#nav ul {
+  background-color: #142121;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  display: inline-block;
+}
+
+#nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Urbanist", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding: 17px 30px;
+}
+
+#nav a:hover {
+  background-color: #111;
+}
+
+#nav .fa-apple {
+  font-size: 14px;
+}
+
+#addinfo {
+  display: block;
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  font-family: "Urbanist", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding: 15px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#addinfo .links {
+  text-decoration: none;
+  color: lightblue;
+  font-weight: bold;
+}
+
+#home {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#home .home-img {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+#home .video {
+  width: 63%;
+  height: 539px;
+  margin: 50px;
+}
+
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 40px;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+h4 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 19px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+h5 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 15px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+#display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: lightgray;
+  margin-top: 50px;
+}
+
+#display .display-img {
+  display: block;
+  width: 35%;
+  padding: 40px;
+}
+
+#display .display-size1 {
+  top: 45%;
+  left: 18%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 25px;
+  font-weight: 1000;
+  letter-spacing: 0.5px;
+}
+
+#display .display-size2 {
+  top: 45%;
+  right: 21%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 25px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+
+#display .screen-size {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 45px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+
+#color-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#color-section .colors-img {
+  display: block;
+  width: 70%;
+  padding: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#camera-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 700px;
+}
+
+#camera-text .text1 {
+  width: 50%;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 75px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+
+#camera-text .text2 {
+  width: 50%;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+#camera {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: black;
+  height: auto;
+}
+
+#camera div {
+  width: 50%;
+}
+
+#camera .camera-img {
+  display: block;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 80%;
+  padding-top: 100px;
+  margin-left: 5%;
+}
+
+#camera .display-size1 {
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 75px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  padding-top: 80px;
+}
+
+#camera .display-size2 {
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-right: 150px;
+}
+
+@media screen and (max-width: 1200px) {
+  #display .display-img {
+    padding: 30px;
+  }
+  #display .display-size1 {
+    font-size: 20px;
+  }
+  #display .display-size2 {
+    font-size: 20px;
+  }
+  #display .screen-size {
+    font-size: 35px;
+  }
+  #camera-text {
+    height: 500px;
+  }
+  #camera-text .text1 {
+    font-size: 55px;
+  }
+  #camera-text .text2 {
+    font-size: 17px;
+  }
+  #camera .display-size1 {
+    font-size: 55px;
+    padding-top: 85px;
+    padding-right: 30px;
+  }
+  #camera .display-size2 {
+    font-size: 15px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #camera .display-size1 {
+    font-size: 45px;
+    padding-top: 85px;
+    padding-right: 55px;
+  }
+  #camera .display-size2 {
+    font-size: 13px;
+    padding-right: 95px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #nav {
+    background-color: #142121;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+  }
+  #nav ul {
+    background-color: #142121;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  #nav li {
+    display: inline-block;
+  }
+  #nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 17px 20px;
+  }
+  #nav a:hover {
+    background-color: #111;
+  }
+  #nav .fa-apple {
+    font-size: 14px;
+  }
+  #display .display-img {
+    padding: 20px;
+  }
+  #display .display-size1 {
+    font-size: 15px;
+  }
+  #display .display-size2 {
+    font-size: 15px;
+  }
+  #display .screen-size {
+    font-size: 25px;
+  }
+  #camera-text {
+    height: 400px;
+  }
+  #camera-text .text1 {
+    font-size: 40px;
+  }
+  #camera-text .text2 {
+    font-size: 13px;
+  }
+  #camera .camera-img {
+    padding-top: 60px;
+  }
+  #camera .display-size1 {
+    font-size: 36px;
+    padding-top: 50px;
+    padding-right: 80px;
+  }
+  #camera .display-size2 {
+    font-size: 12px;
+    padding-right: 75px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #camera .camera-img {
+    padding-top: 50px;
+  }
+  #camera .display-size1 {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-right: 53px;
+  }
+  #camera .display-size2 {
+    font-size: 9px;
+    padding-right: 40px;
+  }
+}
+
+#models {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=styles.css.map */
