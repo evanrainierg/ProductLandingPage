@@ -1,0 +1,63 @@
+// Nav
+
+#nav {
+  background-color: rgb(20, 33, 33);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+
+  ul {
+    background-color: rgb(20, 33, 33);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 17px 30px;
+  }
+
+  a:hover {
+    background-color: #111;
+  }
+
+  .fa-apple {
+    font-size: 14px;
+  }
+}
+
+// Add Info
+
+#addinfo {
+  display: block;
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  font-family: "Urbanist", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding: 15px;
+  margin-top: 50px;
+  text-align: center;
+
+  .links {
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+  }
+}

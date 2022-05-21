@@ -1,0 +1,183 @@
+@media screen and (max-width: 1200px) {
+  //Display
+
+  #display {
+    .display-img {
+      padding: 30px;
+    }
+
+    .display-size1 {
+      font-size: 20px;
+    }
+
+    .display-size2 {
+      font-size: 20px;
+    }
+
+    .screen-size {
+      font-size: 35px;
+    }
+  }
+
+  // Camera Text
+
+  #camera-text {
+    height: 500px;
+
+    .text1 {
+      font-size: 55px;
+    }
+
+    .text2 {
+      font-size: 17px;
+    }
+  }
+
+  //Camera
+
+  #camera {
+    .display-size1 {
+      font-size: 55px;
+      padding-top: 85px;
+      padding-right: 30px;
+    }
+
+    .display-size2 {
+      font-size: 15px;
+      padding-right: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  //Camera
+
+  #camera {
+    .display-size1 {
+      font-size: 45px;
+      padding-top: 85px;
+      padding-right: 55px;
+    }
+
+    .display-size2 {
+      font-size: 13px;
+      padding-right: 95px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  //nav
+  #nav {
+    background-color: rgb(20, 33, 33);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+
+    ul {
+      background-color: rgb(20, 33, 33);
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      font-family: "Urbanist", sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      padding: 17px 20px;
+    }
+
+    a:hover {
+      background-color: #111;
+    }
+
+    .fa-apple {
+      font-size: 14px;
+    }
+  }
+
+  //Display
+
+  #display {
+    .display-img {
+      padding: 20px;
+    }
+
+    .display-size1 {
+      font-size: 15px;
+    }
+
+    .display-size2 {
+      font-size: 15px;
+    }
+
+    .screen-size {
+      font-size: 25px;
+    }
+  }
+
+  // Camera Text
+
+  #camera-text {
+    height: 400px;
+
+    .text1 {
+      font-size: 40px;
+    }
+
+    .text2 {
+      font-size: 13px;
+    }
+  }
+
+  //Camera
+
+  #camera {
+    .camera-img {
+      padding-top: 60px;
+    }
+
+    .display-size1 {
+      font-size: 36px;
+      padding-top: 50px;
+      padding-right: 80px;
+    }
+
+    .display-size2 {
+      font-size: 12px;
+      padding-right: 75px;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  //Camera
+  #camera {
+    .camera-img {
+      padding-top: 50px;
+    }
+
+    .display-size1 {
+      font-size: 30px;
+      padding-top: 40px;
+      padding-right: 53px;
+    }
+
+    .display-size2 {
+      font-size: 9px;
+      padding-right: 40px;
+    }
+  }
+}
