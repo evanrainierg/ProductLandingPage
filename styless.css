@@ -86,7 +86,7 @@
   line-height: 25px;
 }
 
-#orderform p {
+#orderform .email {
   font-family: "Red Hat Display", sans-serif;
   font-size: 30px;
   font-weight: 100;
