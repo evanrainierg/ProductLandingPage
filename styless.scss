@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Nav
+
+#nav {
+  background-color: rgb(20, 33, 33);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+
+  ul {
+    background-color: rgb(20, 33, 33);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 17px 30px;
+  }
+
+  a:hover {
+    background-color: #111;
+  }
+
+  .fa-apple {
+    font-size: 14px;
+  }
+}
+
+// Add Info
+
+#addinfo {
+  display: block;
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  font-family: "Urbanist", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding: 15px;
+  margin-top: 50px;
+  text-align: center;
+
+  .links {
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+  }
+}
+
+// #background {
+//   color: black;
+//   background-color: white;
+//   background-image: url("https://www.xmple.com/wallpaper/white-pink-gradient-linear-1920x1080-c2-ffffff-ffc0cb-a-90-f-14.svg");
+//   background-repeat: no-repeat;
+//   background-position: top;
+//   background-size: cover;
+
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+// }
+
+.image {
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 40px;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  line-height: 50px;
+}
+
+h4 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 19px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+h5 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 15px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+#orderform {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.subtitle {
+  color: brown;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.description {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+#survey-form {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+#finishcapacity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.finish {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.capacity {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+#freebies {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}

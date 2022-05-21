@@ -2,33 +2,84 @@
 
 <html>
   <head>
-    <title>Tribute Page</title>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="tystyless.css" />
+    <link rel="stylesheet" href="./styless.css" />
+    <title>Thanks for signing up!</title>
 
-    <script src="./assets/scripts.js" defer></script>
-    <!-- fonts -->
+    <!--icons-->
+    <script
+      src="https://kit.fontawesome.com/553baf0f5d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300&family=Red+Hat+Display&family=Roboto+Flex:opsz@8..144&family=Sen&family=Urbanist:wght@200&display=swap"
       rel="stylesheet"
     />
+
+    <script src="./assets/scripts.js" defer></script>
   </head>
 
-  <body id="background">
-    <div>
-      <img class="image" src="images/Survey-Form-01.jpeg" alt="iPhone14" />
-    </div>
+  <body>
+    <!-- Nav -->
+
+    <nav id="nav">
+      <ul class="container">
+        <li>
+          <a href="https://www.apple.com/ph" target="_blank"
+            ><i class="fa-brands fa-apple"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.apple.com/ph/store" target="_blank">Store</a>
+        </li>
+        <li><a href="#addinfo">Home</a></li>
+        <li><a href="#camera-text">Camera</a></li>
+        <li><a href="#register">Register</a></li>
+        <li>
+          <a
+            href="https://www.apple.com/ph/shop/accessories/all"
+            target="_blank"
+            >Accessories</a
+          >
+        </li>
+        <li>
+          <a href="https://support.apple.com/en-ph" target="_blank">Support</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Add Info-->
+
+    <p id="addinfo">
+      <a
+        href="https://www.apple.com/ph/shop/goto/shop"
+        class="links"
+        target="_blank"
+        >Shop online</a
+      >
+      for fast, free delivery. Call us at 1800-1651-0525 or visit
+      <a href="https://support.apple.com/en-ph" class="links" target="_blank"
+        >support</a
+      >.
+    </p>
 
     <div id="orderform">
+      <h2>Thanks for signing up to our newsletter!</h2>
+      <h5>
+        You'll get the latest news, updates and amazing offers delivered
+        directly to your email at
+      </h5>
       <p data-email></p>
-      <h1 class="title">Your iPhone 14 is coming.</h1>
-      <p class="description">
-        We will be sending you an e-mail for the processing<br />
-        of your payment and your reservation status.
-      </p>
+    </div>
+
+    <div>
+      <img class="image" src="images/image-07.jpg" alt="iPhone 14 Pro" />
     </div>
   </body>
 </html>

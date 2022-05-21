@@ -6,6 +6,6 @@
     console.log(domEmail)
   
     if(domEmail) {
-      domEmail.textContent = 'Thank you for your subscribing ' + email + '.'
+      domEmail.textContent = email
     }
   })()
